@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link  href="./styles/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+</head>
+<body>
+    <header class="bg_img_config">
+        <div class="header_bar">
+            <div class="bar_items">
+                <img src="./images/logo.svg" alt="brand logo">
+            </div>
+
+            <div class="bar_items">
+                <img id="hamburger" src="./images/icon-hamburger.svg" alt="menu">             
+            </div>
+
+            <div class="collapse">
+                <nav class="header_menu">
+                    <ul>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Services</li></a>
+                        <a href="#"><li>Projects</li></a>
+                        <a href="#"><li id="contact">Contact</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </div>        
+
+        <div class="tittle_header">
+            <h1>We are creatives</h1>
+            <img src="./images/icon-arrow-down.svg" alt="arrow down">
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="img_exclusive egg bg_img_config sec_1"></section>
+
+        <section class="sec_2">
+            <article class="article_with_link container_link">
+                <h2>Transform your brand</h2>
+
+                <p>We are a full-service creative agency specializing in helping brands grow fast.  
+                Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                
+                <a href="#">Learn more</a>
+                <div class="fake_decoration fake_dec_yellow"></div>               
+            </article>
+        </section>
+
+        <section class="img_exclusive cup bg_img_config sec_3"></section>
+
+        <section class="sec_4">
+            <article class="article_with_link container_link">
+                <h2>Stand out to the right audience</h2>
+
+                <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+        
+                <a href="#">Learn more</a>
+                <div class="fake_decoration fake_dec_red"></div> 
+            </article>
+        </section>
+
+        <section class="section_with_description cherry_bg bg_img_config sec_5">
+            <article class="article_with_description container_description">
+                <h2 class="design_text">Graphic design</h2>                
+                <p class="design_text">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            </article>
+        </section>
+
+        <section class="section_with_description orange_bg bg_img_config sec_6">
+            <article class="article_with_description container_description">
+                <h2 class="photo_text">Photography</h2>
+                <p class="photo_text">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </article>
+        </section>
+
+        <section class="testimonials sec_7">
+            <h3>Client testimonials</h3>
+
+            <article class="article_testimonials">
+                <div class="profile_test">
+                    <img class="profile_pic" src="./images/image-emily.jpg" alt="Emily photo">
+                    <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+                </div>
+
+                <div class="profile_description">
+                    <h4>Emily R.</h4>
+                    <p>Marketing Director</p>
+                </div>
+            </article>
+    
+            <article class="article_testimonials">
+                <div class="profile_test">
+                    <img class="profile_pic" src="./images/image-thomas.jpg" alt="Thomas photo">
+                    <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+                </div>
+
+                <div class="profile_description">
+                    <h4>Thomas S.</h4>
+                    <p>Chief Operating Officer</p>
+                </div>
+            </article>
+    
+            <article class="article_testimonials">
+                <div class="profile_test">
+                    <img class="profile_pic" src="./images/image-jennie.jpg" alt="Jennie photo">
+                    <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+                </div>
+
+                <div class="profile_description">
+                    <h4>Jennie F.</h4>
+                    <p>Business Owner</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="sec_8">
+            <picture>
+                <div class="img_1 sqr_imgs bg_img_config"></div>
+                <div class="img_2 sqr_imgs bg_img_config"></div>
+                <div class="img_3 sqr_imgs bg_img_config"></div>
+                <div class="img_4 sqr_imgs bg_img_config"></div>
+            </picture>
+        </section>
+
+    </main>
+
+    <footer>
+        <h5>sunnyside</h5>
+
+        <div class="footer_navs">
+            <nav class="info_nav">
+                <a href="#">About</a>
+                <a href="#">Services</a> 
+                <a href="#">Projects</a>    
+            </nav>
+            <nav class="social_nav">
+                <ul>
+                    <li><img class="social_icons" src="./images/icon-facebook.svg" alt="facebook"></li>
+                    <li><img class="social_icons" src="./images/icon-instagram.svg" alt="instagram"></li>
+                    <li><img class="social_icons" src="./images/icon-twitter.svg" alt="twitter"></li>
+                    <li><img class="social_icons" src="./images/icon-pinterest.svg" alt="pinterest"></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://github.com/gabrielh-silvestre" target="blank">Gabriel Silvestre</a>.
+        </div>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
